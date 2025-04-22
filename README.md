@@ -3,7 +3,7 @@
 
 débloater windows 11 avec facilité !
 
-## Change Executionpolicy
+## pratique:
 
   Ouvrir  PowerShell avec les permsisisons administrateur.
 
@@ -11,7 +11,7 @@ débloater windows 11 avec facilité !
 Set-ExecutionPolicy Unrestricted
 ```
 
-Faire un Coontrol+A pour tout selectionner
+Faire un Control+A pour tout selectionner
 
 ## le clonage du repo est possible :
 
