@@ -16,7 +16,7 @@ Faire un Control+A pour tout selectionner
 ## le clonage du repo est possible :
 
 ```Powershell
-git clone https://github.com/kdpuvvadi/debloat-windows11.git
+git clone https://github.com/zourit77/debloat-windows11.git
 
 ```
 
