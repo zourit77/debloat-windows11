@@ -1,31 +1,26 @@
 
 # Debloat Windows 11
 
-| :warning: Deprication WARNING |
-|:----------------------------|
-| > deprecated. Please use [rufus](https://github.com/pbatard/rufus) & [winutil](https://github.com/christitustech/winutil) |
-
-Debloat your windows 11 install with ease.
-Still work in progress. Some features might be missing.
+débloater windows 11 avec facilité !
 
 ## Change Executionpolicy
 
-Open PowerShell with elevated permissions.
+  Ouvrir  PowerShell avec les permsisisons administrateur.
 
 ```powershell
 Set-ExecutionPolicy Unrestricted
 ```
 
-Select `A` for all.
+Faire un Coontrol+A pour tout selectionner
 
-## Clone the repo
+## le clonage du repo est possible :
 
 ```Powershell
 git clone https://github.com/kdpuvvadi/debloat-windows11.git
 
 ```
 
-## Quick run
+## démarrage :
 
 ```powershell
 iwr https://puvvadi.me/debloat11 | iex
@@ -39,20 +34,5 @@ iwr https://git.io/debloat11 | iex
 
 ## Run
 
-- Right click on the debloat.ps1 and select `run with powershell`.
-- Accept the UAC prompt.
-- click on the features/bloat you would like to remove or add.
+- executer debloat.ps1 and selectionner `lancer avec powershell`.
 
-## Feedback/Support
-
-If you have any feedback or need help, please open an issue on the repo.
-
-## Acknowledgements
-
-This is based on windows10debloater by Sycnex.
-
-- [Windows10Debloater](https://github.com/Sycnex/Windows10Debloater)
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
